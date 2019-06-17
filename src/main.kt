@@ -36,6 +36,10 @@ fun bookTicket(){
     print("Welcome to Ticket Booking")
 }
 
+fun invalidateTrip(){
+
+}
+
 fun listTripsToDestination() {
     print("Welcome to List trips")
 }
