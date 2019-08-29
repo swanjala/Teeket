@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12b1e72-4451-40e5-9381-7d259aae262d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/Registration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Station.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Station.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Trip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Teeket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Station.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Trip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/repository/databaseHelperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +25,9 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -26,11 +37,27 @@
   <component name="ProjectId" id="1Q6Qvwmjw7dvzkt2HaDzFIVOjhm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559414334763</updated>
-      <workItem from="1567088803751" duration="5483000" />
+      <workItem from="1567088803751" duration="7216000" />
     </task>
     <servers />
   </component>
