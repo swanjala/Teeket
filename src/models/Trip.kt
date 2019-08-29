@@ -28,7 +28,7 @@ class Trip {
     var destination:String = ""
     var stations:ArrayList<Station>? = null
     set(value){
-        field = if(stations is ArrayList)value else throw
+        field = if(value is ArrayList)value else throw
                 IllegalArgumentException("The data expects arraylist")
     }
     var busId:Int? = null
