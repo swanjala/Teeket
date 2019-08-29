@@ -7,8 +7,8 @@ class Passenger{
     var passangerId:Int = 0
 
     set(value){
-        field = if(passangerId is Int) value else
-            throw IllegalArgumentException("Passanger Id must be Integer")
+        field = if( value > 0) value else
+            throw IllegalArgumentException("Passanger Id should be greater than 0")
     }
     var name :String = ""
     get() {
@@ -17,7 +17,7 @@ class Passenger{
     var age:Int = 0
 
     set(value){
-        field = if(age is Int && age >17) value else
+        field = if(value > 17) value else
             throw IllegalArgumentException("Age should be int and above 17")
     }
     var passengerType:String = ""
@@ -27,7 +27,7 @@ class Passenger{
     var passengerTravelStatus:String = ""
     var passengerTravelClass:Int = 0
     set(value){
-        field = if(passengerTravelClass is Int && passengerTravelClass >4 )value
+        field = if(value >4 )value
         else throw IllegalArgumentException("Travel class should be int with 3 options")
     }
 
