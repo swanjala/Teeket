@@ -6,8 +6,8 @@ class Driver{
     var driverId:Int = 0
 
     set(value){
-        field = if (value is Int) value else
-            throw IllegalArgumentException ("Value must be an integer")
+        field = if (value >  0) value else
+            throw IllegalArgumentException ("Value must be greater than 0")
     }
 
     var driverName:String = ""
