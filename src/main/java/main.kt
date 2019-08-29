@@ -1,3 +1,5 @@
+package main.java
+
 import models.Bus
 import models.Passenger
 

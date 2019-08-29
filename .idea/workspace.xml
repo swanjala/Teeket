@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12b1e72-4451-40e5-9381-7d259aae262d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Registration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RegistrationTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Teeket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Bus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Station.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/models/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/models/Trip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/repository/databaseHelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/META-INF/Teeket.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/META-INF/Teeket.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/Teeket/App.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/Teeket/AppTest.groovy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +22,9 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,6 +45,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -57,6 +57,10 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/Teeket" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -71,20 +75,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegistrationTest.test_data_is_added_successfully">
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="Teeket" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.test_data_is_added_successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Teeket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RegistrationTest" />
+      <option name="METHOD_NAME" value="test_data_is_added_successfully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in Teeket" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Teeket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.java.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
       <module name="Teeket" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="main.java.MainKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegistrationTest.test_data_is_added_successfully" />
+        <item itemvalue="Groovy.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559414334763</updated>
-      <workItem from="1567088803751" duration="7216000" />
+      <workItem from="1567088803751" duration="10283000" />
     </task>
     <servers />
   </component>
