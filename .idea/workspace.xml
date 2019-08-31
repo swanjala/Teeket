@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12b1e72-4451-40e5-9381-7d259aae262d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/RegistrationTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Teeket.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/META-INF/Teeket.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/META-INF/Teeket.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/Teeket/App.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/Teeket/AppTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teeket/test/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/test/RegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegistrationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegistrationTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.22413793" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.test_data_is_added_successfully">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
     <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Teeket" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
@@ -83,6 +80,21 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Teeket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.RegistrationTest.test_data_is_added_successfully" />
         <item itemvalue="Groovy.build" />
       </list>
@@ -150,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559414334763</updated>
-      <workItem from="1567088803751" duration="10283000" />
+      <workItem from="1567088803751" duration="15372000" />
     </task>
     <servers />
   </component>
