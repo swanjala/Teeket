@@ -1,6 +1,6 @@
 package repository
 
-class database {
+class Database {
 
     fun initializeDatabase():Boolean{
         return false

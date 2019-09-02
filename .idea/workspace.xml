@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12b1e72-4451-40e5-9381-7d259aae262d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/repository/DbInit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Teeket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Teeket/test/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teeket/test/RegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/RegistrationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegistrationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/database.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Database.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -163,7 +162,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559414334763</updated>
-      <workItem from="1567088803751" duration="15372000" />
+      <workItem from="1567088803751" duration="16575000" />
+      <workItem from="1567436738887" duration="2421000" />
     </task>
     <servers />
   </component>
@@ -175,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
