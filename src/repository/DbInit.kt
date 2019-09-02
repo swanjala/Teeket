@@ -7,11 +7,6 @@ class DbInit{
     internal var userName = "userName"
     internal var password = "password"
 
-
-    fun main(args: Array<String>){
-        connection
-        executeMySQLQuery()
-    }
     fun executeMySQLQuery() {
         var statement: Statement? = null
         var resultSet: ResultSet? = null
@@ -55,7 +50,7 @@ class DbInit{
             }
         }
     }
-    fun getConnection() {
+    fun getConnection():Connection? {
         val connectionProps = Properties()
         connectionProps.put("user",userName)
         connectionProps.put("password", password)
@@ -74,5 +69,6 @@ class DbInit{
         }catch(exception:Exception){
             exception.printStackTrace()
         }
+        return connection
     }
 }
