@@ -13,7 +13,7 @@ class DbInit{
 
         try {
             statement = connection!!.createStatement()
-            resultSet = statement!!.executeQuery(("SHOW DATABAES;"))
+            resultSet = statement!!.executeQuery(("SHOW DATABASES;"))
             if(statement.execute("SHOW DATABASES;")){
                 resultSet = statement.resultSet
             }
